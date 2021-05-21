@@ -56,20 +56,28 @@ nav{
 .right button{
     padding: 18px 41px;
     border-radius: 50px;
-    border: none;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: linear;
 }
 .login{
-    background-color: transparent;
+    background: none;
+    border: 2px solid transparent;
     color: white;
     font-weight: 800;
 }
 .signup{
+    border: 2px solid white;
     color: tomato;
     font-weight: 800;
     background-color: white;
 }
-.signup:hover, .login:hover{
-    background-color: rgb(255, 159, 142);
+.signup:hover{
+    background: none;
+    color: white;
+}
+.login:hover{
+    border: 2px solid white;
     color: white;
 }
 .dropdownmenu{
@@ -117,6 +125,7 @@ nav{
     transition-duration: 0.1s;
     transition-property: all;
     transition-timing-function: linear;
+    border: 2px solid white;
 }
 .start{
     border-radius: 50px 0 0 50px;
@@ -126,7 +135,7 @@ nav{
     border-radius: 0 50px 50px 0;
 }
 .buttons button:hover{
-    background-color: #ffa189;
+    background: none;
     color: white;
 }
 .first{
