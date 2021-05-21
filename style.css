@@ -12,10 +12,13 @@ header{
 }
 nav{
     display: flex;
-    margin: 0 auto;
-    padding-top: 55px;
-    max-width: 1200px;
+    padding: 24px 140px;
+    padding-bottom: 20px;
+    min-width: 1239px;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background: #ff634782 50%;
 }
 .intro{
     text-align: center;
@@ -70,19 +73,18 @@ nav{
     color: white;
 }
 .dropdownmenu{
-    opacity: 0;
+    display: none;
     background-color: white;
     list-style: none;
     padding: 10px 33px;
     text-align: center;
     border-radius: 0.2em;
     position: absolute;
-    /* top: 108px; */
     box-shadow: 3px 5px 6px 0px #ef0606;
 }
 
 .left ul li:hover .dropdownmenu{
-    opacity: 1;
+    display: block;
 }
 .dropdownmenu li{
     margin: 5px;
