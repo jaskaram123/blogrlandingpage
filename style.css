@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+header{
+    background: url(images/bg-pattern-intro.svg) no-repeat center center/cover, linear-gradient(90deg, #ff8a70 10%, #ff4457 44%);
+    border-radius: 0 0 0 120px;
+    background-size: 2936px;
+    background-position-x: -410px;
+    max-height: 600px;
+}
+nav{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 55px;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+.intro{
+    text-align: center;
+    padding: 169px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.left .upper{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    min-width: 300px;
+}
+.left ul li a{
+    color: white;
+    text-decoration: none;
+}
+.left ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.middle{
+    border: 2px solid green;
+}
+.right{
+    display: flex;
+    align-items: center;
+    min-width: 267px;
+    justify-content: space-between;
+}
+.right button{
+    padding: 18px 41px;
+    border-radius: 50px;
+    border: none;
+}
+.login{
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+}
+.signup{
+    color: tomato;
+    font-weight: 800;
+    background-color: white;
+}
+.signup:hover, .login:hover{
+    background-color: rgb(255, 159, 142);
+    color: white;
+}
+.dropdownmenu{
+    opacity: 0;
+    background-color: white;
+    list-style: none;
+    padding: 10px 33px;
+    text-align: center;
+    border-radius: 0.2em;
+    position: absolute;
+    /* top: 108px; */
+    box-shadow: 3px 5px 6px 0px #ef0606;
+}
+
+.left ul li:hover .dropdownmenu{
+    opacity: 1;
+}
+.dropdownmenu li{
+    margin: 5px;
+    box-sizing: border-box;
+}
+.dropdownmenu li:hover{
+    font-weight: 800;
+}
+.intro h1 {
+    font-size: 71px;
+    color: white;
+}
+.intro p{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.buttons{
+    padding-top: 62px;
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    padding: 19px 49px;
+    border: none;
+    background-color: white;
+    color: tomato;
+    font-weight: bolder;
+    font-size: 20px;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.start{
+    border-radius: 50px 0 0 50px;
+
+}
+.learn{
+    border-radius: 0 50px 50px 0;
+}
+.buttons button:hover{
+    background-color: #ffa189;
+    color: white;
+}
+.first{
+    padding: 131px 0;
+    min-height: 826px;
+    background: url(images/illustration-editor-desktop.svg) no-repeat center;
+    background-position: 830px 160px;
+    background-size: 938px;
+}
+.first h1{
+    text-align: center;
+    font-size: 40px;
+}
+.leftparas{
+    float: left;
+    max-width: 656px;
+    padding: 80px;
+    padding-top: 200px;
+    padding-left: 73px;
+    font-size: 20px;
+}
+.firstpara, .secondpara{
+    padding: 20px;
+}
+.firstpara h3, .secondpara h3{
+    padding: 17px 0;
+    font-size: 33px;
+}
