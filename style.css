@@ -164,3 +164,78 @@ nav{
     padding: 17px 0;
     font-size: 33px;
 }
+.second{
+    background: url(/images/bg-pattern-circles.svg) no-repeat center, hsl(240, 10%, 16%);
+    background-position: -196px -463px;
+    background-size: 980px;
+    max-height: 421px;
+    display: flex;
+    border-radius: 0 151px 0 151px;
+}
+.phones{
+    min-width: 50%;
+    position: relative;
+    bottom: 59px;
+    padding-left: 117px;
+}
+.para{
+    box-sizing: border-box;
+    padding: 113px 96px 74px 36px;
+    position: relative;
+    right: 118px;
+    font-size: 18px;
+    color: white;
+}
+.para h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.para p{
+    font-weight: 100;
+}
+
+.three{
+    padding: 288px 50px;
+    min-height: 220px;
+    margin: 165px 0;
+    background: url(/images/illustration-laptop-desktop.svg) no-repeat center;
+    background-position: -274px 10px;
+}
+.s3paras{
+    float: right;
+    max-width: 500px;
+    position: relative;
+    right: 192px;
+}
+.s3paras p{
+    font-weight: 300;
+}
+.s3paras h3{
+    padding-bottom: 10px;
+    font-size: 27px;
+    color: hsl(208, 49%, 24%);
+}
+.s3paras div{
+    padding-bottom: 15px;
+}
+.footer {
+    background: hsl(240, 10%, 16%);
+    border-radius: 0 100px 0 0;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px;
+    list-style: none;
+}
+.footer div ul{
+    list-style: none;
+    line-height: 34px;
+    font-weight: 300;
+}
+.footer div h5{
+    font-size: 30px;
+}
+.footer div ul li{
+    font-weight: 300;
+}
