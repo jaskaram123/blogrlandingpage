@@ -88,18 +88,16 @@ nav{
     text-align: center;
     border-radius: 0.2em;
     position: absolute;
-    box-shadow: 3px 5px 6px 0px #ef0606;
 }
 
 .left ul li:hover .dropdownmenu{
     display: block;
 }
 .dropdownmenu li{
-    margin: 5px;
-    box-sizing: border-box;
+    margin: 9px;
 }
 .dropdownmenu li:hover{
-    font-weight: 800;
+    font-weight: 300;
 }
 .intro h1 {
     font-size: 71px;
