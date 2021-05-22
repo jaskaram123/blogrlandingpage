@@ -18,7 +18,6 @@ nav{
     display: flex;
     padding: 24px 140px;
     padding-bottom: 20px;
-    min-width: 1239px;
     justify-content: space-between;
     background: #ff634782 50%;
 }
