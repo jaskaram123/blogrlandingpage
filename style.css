@@ -117,7 +117,7 @@ nav{
     padding: 19px 49px;
     border: none;
     background-color: white;
-    color: tomato;
+    color: #ff6347;
     font-weight: bolder;
     font-size: 20px;
     transition-duration: 0.1s;
@@ -236,4 +236,99 @@ nav{
 }
 .footer div ul li{
     font-weight: 300;
+}
+.loginpage{
+    position: fixed;
+    top: 0;
+}
+form {
+    background-color: hsla(19, 50%, 34%, 0.829);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.loginpage p{
+    padding-top: 20px;
+}
+.inputs {
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    /* background: radial-gradient(); */
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    box-shadow: 4px 7px 14px 0px rgb(255 255 255 / 94%);
+}
+
+input {
+    display: block;
+    border: none;
+    border-bottom: 2px solid orange;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    width: 300px;
+    outline: none;
+
+}
+.dnone{
+    display: none;
+}
+a[target='_blank'] {
+    text-decoration: none;
+    background-color: #4285F4;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid #4285F4;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+a[target='_blank']:hover {
+    background: none;
+    color: #4285F4;
+}
+
+.login2 {
+    padding: 10px 20px;
+    border: 2px solid tomato;
+    border-radius: 50px;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: 25px auto;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+.login2:hover {
+    border: 2px solid tomato;
+    background: none;
+    color: tomato;
+}
+
+.loginpage h1 {
+    color: salmon;
+    font-weight: 800;
+    transform: scale(1.5, 1);
+    
+}
+
+.close {
+    display: block;
+    position: absolute;
+    right: 31px;
+    border: none;
+    top: 28px;
+    background: none;
+    
 }

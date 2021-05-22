@@ -54,15 +54,15 @@
           </uld>
       </div>
       <div class="right">
-        <button class="login">Login</button>
-        <button class="signup">Sign Up</button>
+        <button class="login" id="loginnav">Login</button>
+        <button class="signup" id="navsignup">Sign Up</button>
       </div>
     </nav>
     <div class="intro">
       <h1>A modern polishing platform</h1>
       <p>Grow your audience and build your online brand</p>
       <div class="buttons">
-        <button class="start">Start for Free</button>
+        <button class="start" id="startforfree">Start for Free</button>
         <button class="learn">Learn More</button>
       </div>
     </div>
@@ -256,7 +256,25 @@
       </ul>
     </div>
   </footer>
+<div class="loginpage dnone" id="loginsignup">
+    <form>
+      <div class="inputs">
+          <button id="closebtn" class="close"><svg width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M23.607.98l1.414 1.413L14.414 13l10.607 10.607-1.414 1.414L13 14.414 2.393 25.021.98 23.607 11.586 13 .98 2.393 2.393.98 13 11.586 23.607.98z"
+                      fill="#ff6347" fill-rule="evenodd" />
+              </svg></button>
+          <h1>LOGIN</h1>
+          <label for="email"></label>
+          <input type="email" placeholder="Email" name="email" id="email">
+          <label for="password"></label>
+          <input type="password" name="password" id="password" placeholder="Password">
+          <button class="login2" id="formsign">Login</button>
+          <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+              target="_blank">Login with Google</a>
+      </div>
+  </form>
+</div>
 </body>
 <script src="index.js"></script>
-
 </html>
