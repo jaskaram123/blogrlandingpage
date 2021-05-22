@@ -4,7 +4,7 @@
     font-family: 'Overpass', sans-serif;
 }
 body{
-    min-width: 1600px;
+    /* min-width: 1600px; */
 
 }
 header{
@@ -171,7 +171,6 @@ nav{
     max-height: 421px;
     display: flex;
     border-radius: 0 151px 0 151px;
-    min-width: 1600px;
 
 }
 .phones{
