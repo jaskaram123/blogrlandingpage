@@ -335,3 +335,8 @@ a[target='_blank']:hover {
     background: none;
     
 }
+@media screen and (max-width: 1300px) {
+    nav{
+        background-color: black;
+    }    
+}
