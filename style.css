@@ -3,6 +3,10 @@
     padding: 0;
     font-family: 'Overpass', sans-serif;
 }
+body{
+    min-width: 1600px;
+
+}
 header{
     background: url(images/bg-pattern-intro.svg) no-repeat center center/cover, linear-gradient(90deg, #ff8a70 10%, #ff4457 44%);
     border-radius: 0 0 0 120px;
@@ -16,8 +20,6 @@ nav{
     padding-bottom: 20px;
     min-width: 1239px;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
     background: #ff634782 50%;
 }
 .intro{
@@ -169,6 +171,8 @@ nav{
     max-height: 421px;
     display: flex;
     border-radius: 0 151px 0 151px;
+    min-width: 1600px;
+
 }
 .phones{
     min-width: 50%;
@@ -198,6 +202,7 @@ nav{
     margin: 165px 0;
     background: url(images/illustration-laptop-desktop.svg) no-repeat center;
     background-position: -274px 10px;
+    
 }
 .s3paras{
     float: right;
