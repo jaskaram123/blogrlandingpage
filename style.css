@@ -3,10 +3,6 @@
     padding: 0;
     font-family: 'Overpass', sans-serif;
 }
-body{
-    /* min-width: 1600px; */
-
-}
 header{
     background: url(images/bg-pattern-intro.svg) no-repeat center center/cover, linear-gradient(90deg, #ff8a70 10%, #ff4457 44%);
     border-radius: 0 0 0 120px;
