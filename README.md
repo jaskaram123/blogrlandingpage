@@ -21,8 +21,7 @@ I needed to design a Blogr landing page as given by frontend mentor.com
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jaskaram123/blogrlandingpage)
-- Live Site URL: [Add live site URL here](https://jaskaram123.github.io/blogrlandingpage/)
+- Live Site URL: [blogr landing page](https://jaskaram123.github.io/blogrlandingpage/)
 
 ### Built with
 
