@@ -38,10 +38,10 @@ I will add a animated pop up login form to it to make it more dynamic.
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com) - This helped me learn about svgs.
+- [learned about svgs from here](https://www.w3schools.com) - This helped me learn about svgs.
 
 ## Author
-
-- Instagram - [Jaskaramjit Singh](https://www.instagram.com/artisticmusic__/)
+Jaskaramjit Singh
+- Instagram - [artisticmusic__](https://www.instagram.com/artisticmusic__/)
 - Frontend Mentor - [@jaskaram123](https://www.frontendmentor.io/profile/jaskaram123)
 - Youtube - [Khidarinotlive](https://www.youtube.com/channel/UCfJJytAIVR4i4CIOoPxy2Gw)
