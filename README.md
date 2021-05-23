@@ -1,13 +1,13 @@
 # BLOGR LANDING PAGE
 ## Table of contents
 
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -26,7 +26,7 @@ I needed to design a Blogr landing page as given by frontend mentor.com
 
 ### Built with
 
--HTML5
+- HTML5
 - CSS
 
 ### What I learned
