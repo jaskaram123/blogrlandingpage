@@ -45,3 +45,4 @@ Jaskaramjit Singh
 - Instagram - [artisticmusic__](https://www.instagram.com/artisticmusic__/)
 - Frontend Mentor - [@jaskaram123](https://www.frontendmentor.io/profile/jaskaram123)
 - Youtube - [Khidarinotlive](https://www.youtube.com/channel/UCfJJytAIVR4i4CIOoPxy2Gw)
+- [![linked-in](https://img.shields.io/badge/Linked_In-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white)(https://www.linkedin.com/in/sukhdeep-singh-b5848a1b1/)
